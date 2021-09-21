@@ -42,3 +42,35 @@
 .full-section:nth-of-type(3) .description {
     color: #008000;
 }
+
+/* NAVIGATION  */
+
+nav {
+    position: fixed;
+    top: 5%;
+    right: 20px;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #000;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+}
